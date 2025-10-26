@@ -137,3 +137,217 @@ java.lang.RuntimeException: Failed to fetch or parse JSON from API
 2025-10-27 00:59:00 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (4967e7fc6671cdafac5ee236e840ac97)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
 2025-10-27 00:59:03 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (4967e7fc6671cdafac5ee236e840ac97)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
 2025-10-27 00:59:03 [main] INFO  atlys.tests.BaseTest - Closing browser
+2025-10-27 01:56:38 [main] INFO  atlys.utils.RetryListener - RetryAnalyzer attached to test method: testApplicationWithJsonData
+2025-10-27 01:56:38 [main] INFO  atlys.utils.RetryListener - RetryAnalyzer attached to test method: testConfirmationOfPageSubmition
+2025-10-27 01:56:38 [main] INFO  atlys.tests.BaseTest - Setting up test environment
+2025-10-27 01:56:53 [main] INFO  atlys.tests.BaseTest - Navigated to: https://visa.government.is/
+2025-10-27 01:56:55 [main] INFO  atlys.pages.BasePage - Starting to fill first page of application form
+2025-10-27 01:56:55 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: selectedCityList]
+2025-10-27 01:56:56 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: selectedCityList]
+2025-10-27 01:56:56 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 01:56:56 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application.Application_office]
+2025-10-27 01:56:56 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application.Application_office]
+2025-10-27 01:56:57 [main] INFO  atlys.pages.BasePage - Selected Option : New Delhi
+2025-10-27 01:56:57 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //input[@value='Next']]
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //input[@value='Next']]
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields for first page
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Starting to fill Second page of application form
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Surname__Family_Name_]
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Entered text 'Doe' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Surname__Family_Name_]
+2025-10-27 01:57:15 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_First_name__s_]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Entered text 'John' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_First_name__s_]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_birth]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_birth]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_birth]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Entered text '03/15/1990' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_birth]
+2025-10-27 01:57:16 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Place_of_birth]
+2025-10-27 01:57:17 [main] INFO  atlys.pages.BasePage - Entered text 'Mumbai' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Place_of_birth]
+2025-10-27 01:57:17 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Country_of_birth]
+2025-10-27 01:57:17 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Country_of_birth]
+2025-10-27 01:57:20 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 01:57:20 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_nationality]
+2025-10-27 01:57:20 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_nationality]
+2025-10-27 01:57:21 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 01:57:22 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Sex]
+2025-10-27 01:57:22 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Sex]
+2025-10-27 01:57:22 [main] INFO  atlys.pages.BasePage - Selected Option : Male
+2025-10-27 01:57:22 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Email]
+2025-10-27 01:57:22 [main] INFO  atlys.pages.BasePage - Entered text 'john.doe@example.com' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Email]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_ReEnterEmail]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Entered text 'john.doe@example.com' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_ReEnterEmail]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Phone]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Entered text '9876543210' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Phone]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Type_of_travel_document]
+2025-10-27 01:57:23 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Type_of_travel_document]
+2025-10-27 01:57:24 [main] INFO  atlys.pages.BasePage - Selected Option : Ordinary passport
+2025-10-27 01:57:24 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Number_of_travel_document]
+2025-10-27 01:57:24 [main] INFO  atlys.pages.BasePage - Entered text 'A1234567' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Number_of_travel_document]
+2025-10-27 01:57:24 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_issue]
+2025-10-27 01:57:25 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_issue]
+2025-10-27 01:57:25 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_issue]
+2025-10-27 01:57:25 [main] INFO  atlys.pages.BasePage - Entered text '04/01/2019' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Date_of_issue]
+2025-10-27 01:57:25 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Issued_by]
+2025-10-27 01:57:25 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Issued_by]
+2025-10-27 01:57:28 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 01:57:28 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Valid_until]
+2025-10-27 01:57:28 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Valid_until]
+2025-10-27 01:57:28 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Valid_until]
+2025-10-27 01:57:29 [main] INFO  atlys.pages.BasePage - Entered text '03/31/2029' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Valid_until]
+2025-10-27 01:57:29 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Description_of_Issuer]
+2025-10-27 01:57:29 [main] INFO  atlys.pages.BasePage - Entered text 'Passport Office Mumbai' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Description_of_Issuer]
+2025-10-27 01:57:29 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_country]
+2025-10-27 01:57:29 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_country]
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_city]
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Entered text 'Mumbai' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_city]
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_zip]
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Entered text '400001' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_zip]
+2025-10-27 01:57:32 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_address]
+2025-10-27 01:57:33 [main] INFO  atlys.pages.BasePage - Entered text '123 Marine Drive, Nariman Point' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Applicants_home_address]
+2025-10-27 01:57:33 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_occupation]
+2025-10-27 01:57:33 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_occupation]
+2025-10-27 01:57:34 [main] INFO  atlys.pages.BasePage - Selected Option : Others
+2025-10-27 01:57:34 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_occupation__if_other_]
+2025-10-27 01:57:34 [main] INFO  atlys.pages.BasePage - Entered text 'Software Engineer' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Current_occupation__if_other_]
+2025-10-27 01:57:34 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Employer_name]
+2025-10-27 01:57:35 [main] INFO  atlys.pages.BasePage - Entered text 'Tech Solutions Pvt Ltd' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Employer_name]
+2025-10-27 01:57:35 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Educational_establishment]
+2025-10-27 01:57:35 [main] INFO  atlys.pages.BasePage - Entered text 'other' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Educational_establishment]
+2025-10-27 01:57:35 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Main_purpose_s__of_the_journey]
+2025-10-27 01:57:35 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Main_purpose_s__of_the_journey]
+2025-10-27 01:57:36 [main] INFO  atlys.pages.BasePage - Selected Option : Tourism
+2025-10-27 01:57:36 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Member_state_of_first_entry]
+2025-10-27 01:57:36 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Member_state_of_first_entry]
+2025-10-27 01:57:36 [main] INFO  atlys.pages.BasePage - Selected Option : Denmark
+2025-10-27 01:57:37 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Number_of_entries_requested]
+2025-10-27 01:57:37 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Number_of_entries_requested]
+2025-10-27 01:57:37 [main] INFO  atlys.pages.BasePage - Selected Option : One
+2025-10-27 01:57:37 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_arrival]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_arrival]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_arrival]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Entered text '"10/05/2026"' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_arrival]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_departure]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_departure]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_departure]
+2025-10-27 01:57:38 [main] INFO  atlys.pages.BasePage - Entered text '"10/20/2026"' in element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> id: application_Intended_date_of_departure]
+2025-10-27 01:57:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //label[@for ='application_Duration_Checkbox']]
+2025-10-27 01:57:39 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //label[@for ='application_Duration_Checkbox']]
+2025-10-27 01:57:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //input[@value='Next']]
+2025-10-27 01:57:53 [main] INFO  atlys.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Next']'
+2025-10-27 01:57:53 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields for second page
+2025-10-27 01:57:54 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //input[@value='Submit']]
+2025-10-27 01:58:07 [main] INFO  atlys.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Submit']'
+2025-10-27 01:58:07 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields and submit application
+2025-10-27 01:58:07 [main] INFO  atlys.tests.BaseTest - All data filled in Form succesfully
+2025-10-27 01:58:08 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //h2[contains(text(),'Dear JOHN')]/following-sibling::input[contains(@value,'Display application for print out')]]
+2025-10-27 01:58:14 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //h2[contains(text(),'Dear JOHN')]/following-sibling::input[contains(@value,'Display application for print out')]]
+2025-10-27 01:58:14 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
+2025-10-27 01:58:17 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (f08c7261a2b55e69c74e47923aa099b9)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
+2025-10-27 01:58:17 [main] INFO  atlys.tests.BaseTest - Closing browser
+2025-10-27 02:11:20 [main] INFO  atlys.utils.RetryListener - RetryAnalyzer attached to test method: testApplicationWithJsonData
+2025-10-27 02:11:20 [main] INFO  atlys.utils.RetryListener - RetryAnalyzer attached to test method: testConfirmationOfPageSubmition
+2025-10-27 02:11:20 [main] INFO  atlys.tests.BaseTest - Setting up test environment
+2025-10-27 02:11:28 [main] INFO  atlys.tests.BaseTest - Navigated to: https://visa.government.is/
+2025-10-27 02:11:30 [main] INFO  atlys.pages.BasePage - Starting to fill first page of application form
+2025-10-27 02:11:30 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: selectedCityList]
+2025-10-27 02:11:30 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: selectedCityList]
+2025-10-27 02:11:31 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 02:11:31 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application.Application_office]
+2025-10-27 02:11:31 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application.Application_office]
+2025-10-27 02:11:32 [main] INFO  atlys.pages.BasePage - Selected Option : New Delhi
+2025-10-27 02:11:32 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //input[@value='Next']]
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //input[@value='Next']]
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields for first page
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Starting to fill Second page of application form
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Surname__Family_Name_]
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Entered text 'Doe' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Surname__Family_Name_]
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_First_name__s_]
+2025-10-27 02:11:38 [main] INFO  atlys.pages.BasePage - Entered text 'John' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_First_name__s_]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Entered text '03/15/1990' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Place_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Entered text 'Mumbai' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Place_of_birth]
+2025-10-27 02:11:39 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Country_of_birth]
+2025-10-27 02:11:40 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Country_of_birth]
+2025-10-27 02:11:42 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 02:11:42 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_nationality]
+2025-10-27 02:11:42 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_nationality]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Sex]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Sex]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Selected Option : Male
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Email]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Entered text 'john.doe@example.com' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Email]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_ReEnterEmail]
+2025-10-27 02:11:43 [main] INFO  atlys.pages.BasePage - Entered text 'john.doe@example.com' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_ReEnterEmail]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Phone]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Entered text '9876543210' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Phone]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Type_of_travel_document]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Type_of_travel_document]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Selected Option : Ordinary passport
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Number_of_travel_document]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Entered text 'A1234567' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Number_of_travel_document]
+2025-10-27 02:11:44 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_issue]
+2025-10-27 02:11:45 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_issue]
+2025-10-27 02:11:45 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_issue]
+2025-10-27 02:11:45 [main] INFO  atlys.pages.BasePage - Entered text '04/01/2019' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Date_of_issue]
+2025-10-27 02:11:45 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Issued_by]
+2025-10-27 02:11:45 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Issued_by]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Valid_until]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Valid_until]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Valid_until]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Entered text '03/31/2029' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Valid_until]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Description_of_Issuer]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Entered text 'Passport Office Mumbai' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Description_of_Issuer]
+2025-10-27 02:11:47 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_country]
+2025-10-27 02:11:48 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_country]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Selected Option : INDIA
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_city]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Entered text 'Mumbai' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_city]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_zip]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Entered text '400001' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_zip]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_address]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Entered text '123 Marine Drive, Nariman Point' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Applicants_home_address]
+2025-10-27 02:11:49 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_occupation]
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_occupation]
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Selected Option : Others
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_occupation__if_other_]
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Entered text 'Software Engineer' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Current_occupation__if_other_]
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Employer_name]
+2025-10-27 02:11:50 [main] INFO  atlys.pages.BasePage - Entered text 'Tech Solutions Pvt Ltd' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Employer_name]
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Educational_establishment]
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Entered text 'other' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Educational_establishment]
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Main_purpose_s__of_the_journey]
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Main_purpose_s__of_the_journey]
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Selected Option : Tourism
+2025-10-27 02:11:51 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Member_state_of_first_entry]
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Member_state_of_first_entry]
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Selected Option : Denmark
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Number_of_entries_requested]
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Number_of_entries_requested]
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Selected Option : One
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_arrival]
+2025-10-27 02:11:52 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_arrival]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_arrival]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Entered text '"10/05/2026"' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_arrival]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_departure]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_departure]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_departure]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Entered text '"10/20/2026"' in element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> id: application_Intended_date_of_departure]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //label[@for ='application_Duration_Checkbox']]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //label[@for ='application_Duration_Checkbox']]
+2025-10-27 02:11:53 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //input[@value='Next']]
+2025-10-27 02:12:07 [main] INFO  atlys.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Next']'
+2025-10-27 02:12:07 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields for second page
+2025-10-27 02:12:08 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //input[@value='Submit']]
+2025-10-27 02:12:20 [main] INFO  atlys.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Submit']'
+2025-10-27 02:12:20 [main] INFO  atlys.pages.BasePage - Successfully filled all form fields and submit application
+2025-10-27 02:12:20 [main] INFO  atlys.tests.BaseTest - All data filled in Form succesfully
+2025-10-27 02:12:21 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //h2[contains(text(),'Dear JOHN')]/following-sibling::input[contains(@value,'Display application for print out')]]
+2025-10-27 02:12:25 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //h2[contains(text(),'Dear JOHN')]/following-sibling::input[contains(@value,'Display application for print out')]]
+2025-10-27 02:12:25 [main] INFO  atlys.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
+2025-10-27 02:12:27 [main] INFO  atlys.pages.BasePage - Clicked element: [[ChromeDriver: chrome on windows (3998498d84709ed3a2104151fc606270)] -> xpath: //button[contains(normalize-space(.), 'Print application')]]
+2025-10-27 02:12:27 [main] INFO  atlys.tests.BaseTest - Closing browser
