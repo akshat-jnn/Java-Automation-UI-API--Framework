@@ -95,7 +95,7 @@ Sample JSON structure:
 
 ### Known Issues / Limitations
 - The PDF download after clicking "Print Application" is triggered via an OS-level dialog.
-Selenium WebDriver cannot directly handle this dialog or automate the file save operation; download verification is handled where possible, but PDF saving must be manual or performed using DevTools commands where supported.
+Selenium WebDriver cannot directly handle this dialog or automate the file save operation; but PDF saving must be manual or performed using DevTools commands where supported.
 
 - The provided sample API URL does not supply all the necessary visa form fields. For missing fields, hardcoded fallback values are used in the automation script.
 
