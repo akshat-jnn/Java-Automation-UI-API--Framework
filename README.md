@@ -19,25 +19,7 @@ Java + Selenium Page Object Model (POM) automation framework for the Iceland vis
 - **Apache HttpClient** - API calls
 - **Apache PDFBox** - PDF validation
 - **WebDriverManager** - Automatic driver management
-
-visa-automation/
-├── src/
-│   ├── main/
-│   │   ├── java/atlys/pages/          # Page Object classes
-│   │   ├── java/atlys/utils/          # Utilities (LoggerUtil, WaitUtils, etc.)
-│   │   ├── java/atlys/model/          # API Data Model
-├   |── main/resources/
-│   │   ├── config.properties   # Configuration
-│   │   └── log4j2.xml          # Logging config
-│   ├── test/
-│   │   └── java/atlys/tests/          # Test classes
-│   ├── resources/
-│   │   └── testdata.json                  # Sample or fallback test data
-├── logs/                                  # Stores automation.log
-├── reports/                               # Test execution reports
-├── pom.xml                                # Maven dependencies
-├── testng.xml                             # TestNG suite config
-
+<img width="868" height="474" alt="image" src="https://github.com/user-attachments/assets/2004f48f-3f13-4e11-95fc-912e9ec521a0" />
 
 ## Prerequisites
 1. **Java JDK 11** or higher
@@ -49,35 +31,36 @@ visa-automation/
 ## Setup Instructions
 
 ### 1. Clone the Repository
-git clone <https://github.com/akshat-jnn/Atlys-Automation-Assignment>
-cd atlys-visa-automation
+- git clone <https://github.com/akshat-jnn/Atlys-Automation-Assignment>
+- cd atlys-visa-automation
 
 ### 2. Install Dependencies
-mvn clean install -DskipTests
+- mvn clean install -DskipTests
 
 ### 3. Configure the Framework
-Edit `src/main/resources/config.properties`:
-app.url=https://visa.government.is/
-browser=chrome
+- Edit `src/main/resources/config.properties`:
+- app.url=https://visa.government.is/
+- browser=chrome
 
 ### 4. Run Tests
 
 **Run all tests:**
-mvn clean test
+- mvn clean test
 
 **Run specific test:**
-mvn test -Dtest=VisaApplicationTest
+- mvn test -Dtest=VisaApplicationTest
 
 **Run with specific browser:**
-mvn test -Dbrowser=chrome
+- mvn test -Dbrowser=chrome
 
 **Run headless:**
-mvn test -Dheadless=true
+- mvn test -Dheadless=true
 
    ## Test Data
-The framework fetches test data from the JSON API:
-https://325b27ba3f2e4e229c672014a82e2175.api.mockbin.io/
+- The framework fetches test data from the JSON API:
+ https://325b27ba3f2e4e229c672014a82e2175.api.mockbin.io/
 
+```
 Sample JSON structure:
 {
   "firstName": "John",
@@ -92,6 +75,7 @@ Sample JSON structure:
   "purpose": "Tourism",
   "duration": 15
 }
+```
 
 ## Error Handling Features
 
@@ -110,10 +94,10 @@ Sample JSON structure:
 - Detailed error logging
 
 ### Known Issues / Limitations
--The PDF download after clicking "Print Application" is triggered via an OS-level dialog.
+- The PDF download after clicking "Print Application" is triggered via an OS-level dialog.
 Selenium WebDriver cannot directly handle this dialog or automate the file save operation; download verification is handled where possible, but PDF saving must be manual or performed using DevTools commands where supported.
 
--The provided sample API URL does not supply all the necessary visa form fields. For missing fields, hardcoded fallback values are used in the automation script.
+- The provided sample API URL does not supply all the necessary visa form fields. For missing fields, hardcoded fallback values are used in the automation script.
 
   ---
 **Author**: Akshat Jain  
