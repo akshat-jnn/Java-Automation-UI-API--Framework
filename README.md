@@ -1,5 +1,5 @@
 # Atlys-Automation-Assignment
-Java + Selenium Page Object Model (POM) automation framework for the Iceland visa application portal (https://visa.government.is/).  Features: JSON-driven test data, robust form automation with error handling, TestNG reporting, and centralized logging.
+Java + Selenium Page Object Model (POM) automation framework for the Iceland visa application portal (https://visa.government.is/).  Features: JSON-driven test data, robust form automation with error handling, and centralized logging.
 
 ## Features
 - ✅ **Page Object Model (POM)** - Clean separation of page objects and test logic
